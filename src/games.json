@@ -1,0 +1,482 @@
+[
+    {
+        "id": 1,
+        "title": "Portal 2",
+        "slug": "portal-2",
+        "developer": {
+            "id": 1,
+            "name": "Valve Software"
+        },
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 1,
+            "name": "E10+"
+        },
+        "releasedAt": "2011-04-18",
+        "metaScore": 95,
+        "userScore": 90
+    },
+    {
+        "id": 2,
+        "title": "The Elder Scrolls V: Skyrim",
+        "slug": "the-elder-scrolls-v-skyrim",
+        "developer": {
+            "id": 2,
+            "name": "Bethesda Game Studios"
+        },
+        "genre": {
+            "id": 2,
+            "name": "Role-Playing"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 2,
+            "name": "M"
+        },
+        "releasedAt": "2011-11-10",
+        "metaScore": 94,
+        "userScore": 82
+    },
+    {
+        "id": 3,
+        "title": "The Legend of Zelda: Ocarina of Time 3D",
+        "slug": "the-legend-of-zelda-ocarina-of-time-3d",
+        "developer": {
+            "id": 3,
+            "name": "GREZZO"
+        },
+        "genre": {
+            "id": 3,
+            "name": "Miscellaneous"
+        },
+        "platform": {
+            "id": 2,
+            "name": "3DS"
+        },
+        "rating": {
+            "id": 1,
+            "name": "E10+"
+        },
+        "releasedAt": "2011-06-19",
+        "metaScore": 94,
+        "userScore": 90
+    },
+    {
+        "id": 4,
+        "title": "Batman: Arkham City",
+        "slug": "batman-arkham-city",
+        "developer": {
+            "id": 4,
+            "name": "Rocksteady Studios"
+        },
+        "genre": {
+            "id": 4,
+            "name": "Action Adventure"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 3,
+            "name": "T"
+        },
+        "releasedAt": "2011-11-21",
+        "metaScore": 91,
+        "userScore": 87
+    },
+    {
+        "id": 5,
+        "title": "Super Mario 3D Land",
+        "slug": "super-mario-3d-land",
+        "developer": {
+            "id": 5,
+            "name": "Nintendo"
+        },
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "platform": {
+            "id": 2,
+            "name": "3DS"
+        },
+        "rating": {
+            "id": 4,
+            "name": "E"
+        },
+        "releasedAt": "2011-11-13",
+        "metaScore": 90,
+        "userScore": 84
+    },
+    {
+        "id": 6,
+        "title": "Deus Ex: Human Revolution",
+        "slug": "deus-ex-human-revolution",
+        "developer": {
+            "id": 6,
+            "name": "Nixxes Software"
+        },
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 2,
+            "name": "M"
+        },
+        "releasedAt": "2011-08-23",
+        "metaScore": 90,
+        "userScore": 85
+    },
+    {
+        "id": 7,
+        "title": "Pushmo",
+        "slug": "pushmo",
+        "developer": {
+            "id": 7,
+            "name": "Intelligent Systems"
+        },
+        "genre": {
+            "id": 3,
+            "name": "Miscellaneous"
+        },
+        "platform": {
+            "id": 2,
+            "name": "3DS"
+        },
+        "rating": {
+            "id": 4,
+            "name": "E"
+        },
+        "releasedAt": "2011-12-08",
+        "metaScore": 90,
+        "userScore": 83
+    },
+    {
+        "id": 8,
+        "title": "Total War: Shogun 2",
+        "slug": "total-war-shogun-2",
+        "developer": {
+            "id": 8,
+            "name": "Creative Assembly"
+        },
+        "genre": {
+            "id": 5,
+            "name": "Strategy"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 3,
+            "name": "T"
+        },
+        "releasedAt": "2011-03-15",
+        "metaScore": 90,
+        "userScore": 84
+    },
+    {
+        "id": 9,
+        "title": "FIFA Soccer 12",
+        "slug": "fifa-soccer-12",
+        "developer": {
+            "id": 9,
+            "name": "Electronic Arts"
+        },
+        "genre": {
+            "id": 6,
+            "name": "Sports"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 4,
+            "name": "E"
+        },
+        "releasedAt": "2011-09-27",
+        "metaScore": 89,
+        "userScore": 71
+    },
+    {
+        "id": 10,
+        "title": "Battlefield 3",
+        "slug": "battlefield-3",
+        "developer": {
+            "id": 10,
+            "name": "EA DICE"
+        },
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 2,
+            "name": "M"
+        },
+        "releasedAt": "2011-10-25",
+        "metaScore": 89,
+        "userScore": 76
+    },
+    {
+        "id": 11,
+        "title": "LIMBO",
+        "slug": "limbo",
+        "developer": {
+            "id": 11,
+            "name": "PLAYDEAD"
+        },
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 3,
+            "name": "T"
+        },
+        "releasedAt": "2011-08-02",
+        "metaScore": 88,
+        "userScore": 81
+    },
+    {
+        "id": 12,
+        "title": "Assassin's Creed: Brotherhood",
+        "slug": "assassins-creed-brotherhood",
+        "developer": {
+            "id": 12,
+            "name": "Ubisoft Montreal"
+        },
+        "genre": {
+            "id": 4,
+            "name": "Action Adventure"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 2,
+            "name": "M"
+        },
+        "releasedAt": "2011-03-22",
+        "metaScore": 88,
+        "userScore": 82
+    },
+    {
+        "id": 13,
+        "title": "The Witcher 2: Assassins of Kings",
+        "slug": "the-witcher-2-assassins-of-kings",
+        "developer": {
+            "id": 13,
+            "name": "CD Projekt Red Studio"
+        },
+        "genre": {
+            "id": 2,
+            "name": "Role-Playing"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 2,
+            "name": "M"
+        },
+        "releasedAt": "2011-05-17",
+        "metaScore": 88,
+        "userScore": 85
+    },
+    {
+        "id": 14,
+        "title": "Dead Space 2",
+        "slug": "dead-space-2",
+        "developer": {
+            "id": 14,
+            "name": "Visceral Games"
+        },
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 2,
+            "name": "M"
+        },
+        "releasedAt": "2011-01-25",
+        "metaScore": 87,
+        "userScore": 84
+    },
+    {
+        "id": 15,
+        "title": "Bastion",
+        "slug": "bastion",
+        "developer": {
+            "id": 15,
+            "name": "Supergiant Games"
+        },
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 1,
+            "name": "E10+"
+        },
+        "releasedAt": "2011-08-16",
+        "metaScore": 86,
+        "userScore": 85
+    },
+    {
+        "id": 16,
+        "title": "Crysis 2",
+        "slug": "crysis-2",
+        "developer": {
+            "id": 16,
+            "name": "Crytek"
+        },
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 2,
+            "name": "M"
+        },
+        "releasedAt": "2011-03-22",
+        "metaScore": 86,
+        "userScore": 68
+    },
+    {
+        "id": 17,
+        "title": "DiRT 3",
+        "slug": "dirt-3",
+        "developer": {
+            "id": 17,
+            "name": "Codemasters"
+        },
+        "genre": {
+            "id": 7,
+            "name": "Driving"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 3,
+            "name": "T"
+        },
+        "releasedAt": "2011-05-23",
+        "metaScore": 86,
+        "userScore": 70
+    },
+    {
+        "id": 18,
+        "title": "Battlefield 3: Back to Karkand",
+        "slug": "battlefield-3-back-to-karkand",
+        "developer": {
+            "id": 10,
+            "name": "EA DICE"
+        },
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 2,
+            "name": "M"
+        },
+        "releasedAt": "2011-12-13",
+        "metaScore": 86,
+        "userScore": 72
+    },
+    {
+        "id": 19,
+        "title": "Super Street Fighter IV: 3D Edition",
+        "slug": "super-street-fighter-iv-3d-edition",
+        "developer": {
+            "id": 18,
+            "name": "Capcom"
+        },
+        "genre": {
+            "id": 1,
+            "name": "Action"
+        },
+        "platform": {
+            "id": 2,
+            "name": "3DS"
+        },
+        "rating": {
+            "id": 3,
+            "name": "T"
+        },
+        "releasedAt": "2011-03-27",
+        "metaScore": 85,
+        "userScore": 80
+    },
+    {
+        "id": 20,
+        "title": "Frozen Synapse",
+        "slug": "frozen-synapse",
+        "developer": {
+            "id": 19,
+            "name": "Mode 7 Games"
+        },
+        "genre": {
+            "id": 5,
+            "name": "Strategy"
+        },
+        "platform": {
+            "id": 1,
+            "name": "PC"
+        },
+        "rating": {
+            "id": 5,
+            "name": ""
+        },
+        "releasedAt": "2011-05-26",
+        "metaScore": 85,
+        "userScore": 76
+    }
+]
