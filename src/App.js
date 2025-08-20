@@ -2,15 +2,20 @@ import './App.css';
 
 import { useState } from 'react';
 
-const ToggleText = ({ buttonLabel, text }) => {
-    const [showText, setShowText] = useState(false);
+const ToggleText = ({ showLabel = "Show", hideLabel = "Hide", text, defaultState = false }) => {
+    const [showText, setShowText] = useState(defaultState);
 
     const toggleText = () => setShowText(!showText);
+
+    const labels = {
+        true: hideLabel,
+        false: showLabel,
+    };
 
     return (
         <div>
             <button type="button" onClick={toggleText}>
-                {buttonLabel}
+                {labels[showText]}
             </button>
             {showText && <p>{text}</p>}
         </div>
@@ -23,15 +28,19 @@ export default function App() {
             <header className="App-header">React Tutorial App</header>
             <h1>Hello world!</h1>
             <ToggleText
-                buttonLabel="Toggle text 1"
+                showLabel="Show text 1"
+                hideLabel="Hide text 1"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             ></ToggleText>
             <ToggleText
-                buttonLabel="Toggle text 2"
-                text="In id scelerisque nisl. Curabitur eu nisl eget orci dapibus maximus. "
+                showLabel="Show text 2"
+                hideLabel="Hide text 2"
+                text="In id scelerisque nisl. Curabitur eu nisl eget orci dapibus maximus."
+                defaultState="true"
             ></ToggleText>
             <ToggleText
-                buttonLabel="Toggle text 3"
+                showLabel="Show text 3"
+                hideLabel="Hide text 3"
                 text="Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
             ></ToggleText>
         </div>
