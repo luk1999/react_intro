@@ -1,4 +1,4 @@
-const GameItem = ({ title, releasedAt }) => {
+const GameItem = ({ title, developer = {}, genre = {}, platform = {}, rating = {}, releasedAt }) => {
     return (
         <div class="col-xl-4 col-lg-6">
             <div class="card mb-2">
@@ -7,6 +7,12 @@ const GameItem = ({ title, releasedAt }) => {
                     <h6 class="card-subtitle mb-2 text-body-secondary">
                         Released: {releasedAt}
                     </h6>
+                    <p class="card-text">
+                        {developer.name && <span class="badge rounded-pill text-bg-primary">{developer.name}</span>}
+                        {genre.name && <span class="badge rounded-pill text-bg-success">{genre.name}</span>}
+                        {platform.name && <span class="badge rounded-pill text-bg-dark">{platform.name}</span>}
+                        {rating.name && <span class="badge rounded-pill text-bg-danger">{rating.name}</span>}
+                    </p>
                 </div>
             </div>
         </div>
