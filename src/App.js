@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 
 import { GamesDetails } from './games/GameDetails';
 import { GamesList } from './games/GameList';
@@ -10,7 +10,7 @@ export default function App() {
                 <header class="mb-2">
                     <nav class="navbar bg-primary" data-bs-theme="dark">
                         <div class="container">
-                            <span class="navbar-brand h1">Games Portal</span>
+                            <Link to="/" class="navbar-brand h1">Games Portal</Link>
                         </div>
                     </nav>
                 </header>
