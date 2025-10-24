@@ -42,8 +42,8 @@ export const GamesList = () => {
                 setLoading(true);
 
                 const response = await ApiGameService.getList(currentPage);
-                const { next, previous, results } = response.data;
-                setPagination({ current: currentPage, next, previous });
+                const { count, next, previous, results } = response.data;
+                setPagination({ count, current: currentPage, next, previous });
                 setGames(results);
 
                 setLoading(false);
@@ -68,6 +68,8 @@ export const GamesList = () => {
                 (
                     <div class="row">
                         <div class="col-md-12 py-2">
+                            Number of games: {pagination.count}
+
                             <ul class="pagination float-end">
                                 <li className={pagination.previous ? 'page-item' : 'page-item disabled'}>
                                     <button type="button" class="page-link" onClick={prevPage}>
