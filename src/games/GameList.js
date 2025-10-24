@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 
 import ApiGameService from '../api/ApiGameService.js';
+import CookieService from '../services/CookieService.js';
 import { Link } from 'react-router-dom';
 
 const GameItem = ({ id, title, developer = {}, genre = {}, platform = {}, rating = {}, releasedAt }) => {
@@ -31,10 +32,17 @@ export const GamesList = () => {
     const [games, setGames] = useState({});
 
     const [pagination, setPagination] = useState({});
-    const [currentPage, setCurrentPage] = useState(1);
+    const [currentPage, setCurrentPage] = useState(CookieService.getGameListCurrentPage());
 
-    const prevPage = () => setCurrentPage(currentPage - 1);
-    const nextPage = () => setCurrentPage(currentPage + 1);
+    const prevPage = () => {
+        setCurrentPage(currentPage - 1);
+        CookieService.setGameListCurrentPage(currentPage - 1);
+    };
+
+    const nextPage = () => {
+        setCurrentPage(currentPage + 1);
+        CookieService.setGameListCurrentPage(currentPage + 1);
+    };
 
     useEffect(
         () => {
